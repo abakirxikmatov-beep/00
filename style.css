@@ -1,0 +1,178 @@
+*{
+  margin: 0;  
+  padding: 0;
+  box-sizing:border-box ;
+}
+
+.home-body{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://wallpapers.com/images/featured/pubg-go20ghrcj4ybxhvq.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.news-body{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c4c1bfd6-740f-4577-a3d0-0cb5b71fb2df/dgegh5y-df7d84f2-153a-4966-b346-2cb97f2e5b85.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi9jNGMxYmZkNi03NDBmLTQ1NzctYTNkMC0wY2I1YjcxZmIyZGYvZGdlZ2g1eS1kZjdkODRmMi0xNTNhLTQ5NjYtYjM0Ni0yY2I5N2YyZTViODUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KY8Km83hrUmSOyQQgxq-S0w4yiVBV4zkSAhfdrood0E");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.media-body{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://i.ytimg.com/vi/XaRuDbclsrU/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.communit-body{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://preview.redd.it/so-many-lobby-backgrounds-v0-bkh3ysgbpoec1.jpeg?auto=webp&s=4650a796b6be8217d75bcc0cc21cbd593e3858b7");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.support-body{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://i.ytimg.com/vi/xSwZUkjqrsI/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body{
+    height: 82px;
+    width: 1,440px;
+    display: flex;
+    justify-content: space-between;
+   background-color: black;
+    align-items: center;
+}
+
+.logo img{
+    width: 30px;
+    height: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+
+a{
+    text-decoration: none;
+    color:#FFFFFF;
+;
+}
+
+a:hover{
+    color: red;
+}
+
+li{
+    list-style: none;
+}
+
+.left{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.right p{
+    margin-right: 30px;
+    background-color: #D9D9D9;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    width: 192;
+height: 82;
+left: 1191px;
+background-color:  #F1A900;
+}
+
+.header-logo{
+    display: flex;
+    background-color: darkgray;
+height: 44;
+opacity: 1;
+top: 82px;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://i.redd.it/liscn7ue13cc1.jpeg");          
+}
+
+.hero {
+    height: 100vh;
+    background: url("bg.jpg") no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.55);
+}
+
+.top-buttons {
+    position: absolute;
+    top: 35%;
+    display: flex;
+    gap: 20px;
+    z-index: 2;
+}
+
+.btn {
+    padding: 15px 45px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.pc {
+    background: #f5b400;
+    color: black;
+}
+
+.console {
+    background: black;
+    color: white;
+}
+
+/* Sarlavha qismi */
+.title-box {
+    position: absolute;
+    bottom: 30%;
+    background: rgba(245, 180, 0, 0.8);
+    padding: 25px 60px;
+    z-index: 2;
+}
+
+.title-box h1 {
+    color: white;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
